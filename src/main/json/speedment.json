@@ -1,0 +1,1623 @@
+{
+  "config" : {
+    "speedmentVersion" : "Speedment:3.2.6",
+    "nameProtected" : false,
+    "expanded" : true,
+    "appId" : "18cf27d5-2a0a-4203-a27f-56aca38eaf83",
+    "companyName" : "Elliott Bignell",
+    "name" : "homePIX",
+    "packageLocation" : "src/main/java/",
+    "id" : "innodb",
+    "dbmses" : [
+      {
+        "expanded" : true,
+        "port" : 3306,
+        "schemas" : [
+          {
+            "tables" : [
+              {
+                "expanded" : true,
+                "isView" : false,
+                "columns" : [
+                  {
+                    "databaseType" : "java.lang.Short",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "id",
+                    "id" : "id",
+                    "ordinalPosition" : 1,
+                    "enabled" : true
+                  },
+                  {
+                    "databaseType" : "java.lang.Byte",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "album_id",
+                    "id" : "album_id",
+                    "ordinalPosition" : 2,
+                    "enabled" : true
+                  },
+                  {
+                    "databaseType" : "java.lang.Integer",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "entry_id",
+                    "id" : "entry_id",
+                    "ordinalPosition" : 3,
+                    "enabled" : true
+                  },
+                  {
+                    "databaseType" : "java.lang.Integer",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "id:1",
+                    "id" : "id:1",
+                    "ordinalPosition" : 4,
+                    "enabled" : true
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "file",
+                    "id" : "file",
+                    "ordinalPosition" : 5,
+                    "enabled" : true
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "title",
+                    "id" : "title",
+                    "ordinalPosition" : 6,
+                    "enabled" : true
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "sortkey",
+                    "id" : "sortkey",
+                    "ordinalPosition" : 7,
+                    "enabled" : true
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "added_on",
+                    "id" : "added_on",
+                    "ordinalPosition" : 8,
+                    "enabled" : true
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "taken_on",
+                    "id" : "taken_on",
+                    "ordinalPosition" : 9,
+                    "enabled" : true
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "last_modified",
+                    "id" : "last_modified",
+                    "ordinalPosition" : 10,
+                    "enabled" : true
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "location",
+                    "id" : "location",
+                    "ordinalPosition" : 11,
+                    "enabled" : true
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "primaryCategory",
+                    "id" : "primaryCategory",
+                    "ordinalPosition" : 12,
+                    "enabled" : true
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "secondaryCategory",
+                    "id" : "secondaryCategory",
+                    "ordinalPosition" : 13,
+                    "enabled" : true
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "keywords_id",
+                    "id" : "keywords_id",
+                    "ordinalPosition" : 14,
+                    "enabled" : true
+                  },
+                  {
+                    "databaseType" : "java.lang.Short",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "path_id",
+                    "id" : "path_id",
+                    "ordinalPosition" : 15,
+                    "enabled" : true
+                  },
+                  {
+                    "databaseType" : "java.lang.Byte",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "hits",
+                    "id" : "hits",
+                    "ordinalPosition" : 16,
+                    "enabled" : true
+                  },
+                  {
+                    "databaseType" : "java.lang.Byte",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "id:2",
+                    "id" : "id:2",
+                    "ordinalPosition" : 17,
+                    "enabled" : true
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "name",
+                    "id" : "name",
+                    "ordinalPosition" : 18,
+                    "enabled" : true
+                  },
+                  {
+                    "databaseType" : "java.lang.Byte",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "count",
+                    "id" : "count",
+                    "ordinalPosition" : 19,
+                    "enabled" : true
+                  },
+                  {
+                    "databaseType" : "java.lang.Integer",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "thumbnail_id",
+                    "id" : "thumbnail_id",
+                    "ordinalPosition" : 20,
+                    "enabled" : true
+                  },
+                  {
+                    "databaseType" : "java.lang.Byte",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "hits:1",
+                    "id" : "hits:1",
+                    "ordinalPosition" : 21,
+                    "enabled" : true
+                  }
+                ],
+                "name" : "AlbumView",
+                "id" : "AlbumView",
+                "enabled" : true
+              },
+              {
+                "expanded" : true,
+                "isView" : false,
+                "columns" : [
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "id",
+                    "id" : "id",
+                    "ordinalPosition" : 1,
+                    "enabled" : true
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "name",
+                    "id" : "name",
+                    "ordinalPosition" : 2,
+                    "enabled" : true
+                  }
+                ],
+                "name" : "auth_group",
+                "id" : "auth_group",
+                "enabled" : true
+              },
+              {
+                "expanded" : true,
+                "isView" : false,
+                "columns" : [
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "id",
+                    "id" : "id",
+                    "ordinalPosition" : 1,
+                    "enabled" : true
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "group_id",
+                    "id" : "group_id",
+                    "ordinalPosition" : 2,
+                    "enabled" : true
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "permission_id",
+                    "id" : "permission_id",
+                    "ordinalPosition" : 3,
+                    "enabled" : true
+                  }
+                ],
+                "name" : "auth_group_permissions",
+                "id" : "auth_group_permissions",
+                "enabled" : true
+              },
+              {
+                "expanded" : true,
+                "isView" : false,
+                "columns" : [
+                  {
+                    "databaseType" : "java.lang.Byte",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "id",
+                    "id" : "id",
+                    "ordinalPosition" : 1,
+                    "enabled" : true
+                  },
+                  {
+                    "databaseType" : "java.lang.Byte",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "content_type_id",
+                    "id" : "content_type_id",
+                    "ordinalPosition" : 2,
+                    "enabled" : true
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "codename",
+                    "id" : "codename",
+                    "ordinalPosition" : 3,
+                    "enabled" : true
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "name",
+                    "id" : "name",
+                    "ordinalPosition" : 4,
+                    "enabled" : true
+                  }
+                ],
+                "name" : "auth_permission",
+                "id" : "auth_permission",
+                "enabled" : true
+              },
+              {
+                "expanded" : true,
+                "isView" : false,
+                "columns" : [
+                  {
+                    "databaseType" : "java.lang.Byte",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "id",
+                    "id" : "id",
+                    "ordinalPosition" : 1,
+                    "enabled" : true
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "password",
+                    "id" : "password",
+                    "ordinalPosition" : 2,
+                    "enabled" : true
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "last_login",
+                    "id" : "last_login",
+                    "ordinalPosition" : 3,
+                    "enabled" : true
+                  },
+                  {
+                    "databaseType" : "java.lang.Byte",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "is_superuser",
+                    "id" : "is_superuser",
+                    "ordinalPosition" : 4,
+                    "enabled" : true
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "username",
+                    "id" : "username",
+                    "ordinalPosition" : 5,
+                    "enabled" : true
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "last_name",
+                    "id" : "last_name",
+                    "ordinalPosition" : 6,
+                    "enabled" : true
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "email",
+                    "id" : "email",
+                    "ordinalPosition" : 7,
+                    "enabled" : true
+                  },
+                  {
+                    "databaseType" : "java.lang.Byte",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "is_staff",
+                    "id" : "is_staff",
+                    "ordinalPosition" : 8,
+                    "enabled" : true
+                  },
+                  {
+                    "databaseType" : "java.lang.Byte",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "is_active",
+                    "id" : "is_active",
+                    "ordinalPosition" : 9,
+                    "enabled" : true
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "date_joined",
+                    "id" : "date_joined",
+                    "ordinalPosition" : 10
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "first_name",
+                    "id" : "first_name",
+                    "ordinalPosition" : 11
+                  }
+                ],
+                "name" : "auth_user",
+                "id" : "auth_user",
+                "enabled" : true
+              },
+              {
+                "expanded" : true,
+                "isView" : false,
+                "columns" : [
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "id",
+                    "id" : "id",
+                    "ordinalPosition" : 1
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "user_id",
+                    "id" : "user_id",
+                    "ordinalPosition" : 2
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "group_id",
+                    "id" : "group_id",
+                    "ordinalPosition" : 3
+                  }
+                ],
+                "name" : "auth_user_groups",
+                "id" : "auth_user_groups"
+              },
+              {
+                "expanded" : true,
+                "isView" : false,
+                "columns" : [
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "id",
+                    "id" : "id",
+                    "ordinalPosition" : 1
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "user_id",
+                    "id" : "user_id",
+                    "ordinalPosition" : 2
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "permission_id",
+                    "id" : "permission_id",
+                    "ordinalPosition" : 3
+                  }
+                ],
+                "name" : "auth_user_user_permissions",
+                "id" : "auth_user_user_permissions"
+              },
+              {
+                "expanded" : true,
+                "isView" : false,
+                "columns" : [
+                  {
+                    "databaseType" : "java.lang.Integer",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "id",
+                    "id" : "id",
+                    "ordinalPosition" : 1
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "file",
+                    "id" : "file",
+                    "ordinalPosition" : 2
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "substr( taken_on, 0, 11)",
+                    "id" : "substr( taken_on, 0, 11)",
+                    "ordinalPosition" : 3
+                  },
+                  {
+                    "databaseType" : "java.lang.Short",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "count",
+                    "id" : "count",
+                    "ordinalPosition" : 4
+                  }
+                ],
+                "name" : "CalendarView",
+                "id" : "CalendarView"
+              },
+              {
+                "expanded" : true,
+                "isView" : false,
+                "columns" : [
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "id",
+                    "id" : "id",
+                    "ordinalPosition" : 1
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "challenge",
+                    "id" : "challenge",
+                    "ordinalPosition" : 2
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "response",
+                    "id" : "response",
+                    "ordinalPosition" : 3
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "hashkey",
+                    "id" : "hashkey",
+                    "ordinalPosition" : 4
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "expiration",
+                    "id" : "expiration",
+                    "ordinalPosition" : 5
+                  }
+                ],
+                "name" : "captcha_captchastore",
+                "id" : "captcha_captchastore"
+              },
+              {
+                "expanded" : true,
+                "isView" : false,
+                "columns" : [
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "id",
+                    "id" : "id",
+                    "ordinalPosition" : 1
+                  },
+                  {
+                    "databaseType" : "java.sql.Timestamp",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "action_time",
+                    "id" : "action_time",
+                    "ordinalPosition" : 2
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "object_id",
+                    "id" : "object_id",
+                    "ordinalPosition" : 3
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "object_repr",
+                    "id" : "object_repr",
+                    "ordinalPosition" : 4
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "change_message",
+                    "id" : "change_message",
+                    "ordinalPosition" : 5
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "content_type_id",
+                    "id" : "content_type_id",
+                    "ordinalPosition" : 6
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "user_id",
+                    "id" : "user_id",
+                    "ordinalPosition" : 7
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "action_flag",
+                    "id" : "action_flag",
+                    "ordinalPosition" : 8
+                  }
+                ],
+                "name" : "django_admin_log",
+                "id" : "django_admin_log"
+              },
+              {
+                "expanded" : true,
+                "isView" : false,
+                "columns" : [
+                  {
+                    "databaseType" : "java.lang.Byte",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "id",
+                    "id" : "id",
+                    "ordinalPosition" : 1
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "app_label",
+                    "id" : "app_label",
+                    "ordinalPosition" : 2
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "model",
+                    "id" : "model",
+                    "ordinalPosition" : 3
+                  }
+                ],
+                "name" : "django_content_type",
+                "id" : "django_content_type"
+              },
+              {
+                "expanded" : true,
+                "isView" : false,
+                "columns" : [
+                  {
+                    "databaseType" : "java.lang.Byte",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "id",
+                    "id" : "id",
+                    "ordinalPosition" : 1
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "app",
+                    "id" : "app",
+                    "ordinalPosition" : 2
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "name",
+                    "id" : "name",
+                    "ordinalPosition" : 3
+                  },
+                  {
+                    "databaseType" : "java.sql.Timestamp",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "applied",
+                    "id" : "applied",
+                    "ordinalPosition" : 4
+                  }
+                ],
+                "name" : "django_migrations",
+                "id" : "django_migrations"
+              },
+              {
+                "expanded" : true,
+                "isView" : false,
+                "columns" : [
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "session_key",
+                    "id" : "session_key",
+                    "ordinalPosition" : 1
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "session_data",
+                    "id" : "session_data",
+                    "ordinalPosition" : 2
+                  },
+                  {
+                    "databaseType" : "java.sql.Timestamp",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "expire_date",
+                    "id" : "expire_date",
+                    "ordinalPosition" : 3
+                  }
+                ],
+                "name" : "django_session",
+                "id" : "django_session"
+              },
+              {
+                "expanded" : true,
+                "isView" : false,
+                "columns" : [
+                  {
+                    "databaseType" : "java.lang.Byte",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "id",
+                    "id" : "id",
+                    "ordinalPosition" : 1
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "name",
+                    "id" : "name",
+                    "ordinalPosition" : 2
+                  },
+                  {
+                    "databaseType" : "java.lang.Byte",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "count",
+                    "id" : "count",
+                    "ordinalPosition" : 3
+                  },
+                  {
+                    "databaseType" : "java.lang.Integer",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "thumbnail_id",
+                    "id" : "thumbnail_id",
+                    "ordinalPosition" : 4
+                  },
+                  {
+                    "databaseType" : "java.lang.Byte",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "hits",
+                    "id" : "hits",
+                    "ordinalPosition" : 5
+                  }
+                ],
+                "name" : "homePIX_album",
+                "id" : "homePIX_album"
+              },
+              {
+                "expanded" : true,
+                "isView" : false,
+                "columns" : [
+                  {
+                    "databaseType" : "java.lang.Short",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "id",
+                    "id" : "id",
+                    "ordinalPosition" : 1
+                  },
+                  {
+                    "databaseType" : "java.lang.Byte",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "album_id",
+                    "id" : "album_id",
+                    "ordinalPosition" : 2
+                  },
+                  {
+                    "databaseType" : "java.lang.Integer",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "entry_id",
+                    "id" : "entry_id",
+                    "ordinalPosition" : 3
+                  }
+                ],
+                "name" : "homePIX_albumcontent",
+                "id" : "homePIX_albumcontent"
+              },
+              {
+                "expanded" : true,
+                "isView" : false,
+                "columns" : [
+                  {
+                    "databaseType" : "java.lang.Byte",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "id",
+                    "id" : "id",
+                    "ordinalPosition" : 1
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "author",
+                    "id" : "author",
+                    "ordinalPosition" : 2
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "text",
+                    "id" : "text",
+                    "ordinalPosition" : 3
+                  },
+                  {
+                    "databaseType" : "java.sql.Timestamp",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "create_date",
+                    "id" : "create_date",
+                    "ordinalPosition" : 4
+                  },
+                  {
+                    "databaseType" : "java.lang.Byte",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "approved_comment",
+                    "id" : "approved_comment",
+                    "ordinalPosition" : 5
+                  },
+                  {
+                    "databaseType" : "java.lang.Short",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "post_id",
+                    "id" : "post_id",
+                    "ordinalPosition" : 6
+                  }
+                ],
+                "name" : "homePIX_comment",
+                "id" : "homePIX_comment"
+              },
+              {
+                "expanded" : true,
+                "isView" : false,
+                "columns" : [
+                  {
+                    "databaseType" : "java.lang.Short",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "id",
+                    "id" : "id",
+                    "ordinalPosition" : 1
+                  },
+                  {
+                    "databaseType" : "java.lang.Integer",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "entry_id",
+                    "id" : "entry_id",
+                    "ordinalPosition" : 2
+                  },
+                  {
+                    "databaseType" : "java.lang.Integer",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "picturefile_id",
+                    "id" : "picturefile_id",
+                    "ordinalPosition" : 3
+                  }
+                ],
+                "name" : "homePIX_csvcontent",
+                "id" : "homePIX_csvcontent"
+              },
+              {
+                "expanded" : true,
+                "isView" : false,
+                "columns" : [
+                  {
+                    "databaseType" : "java.lang.Integer",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "id",
+                    "id" : "id",
+                    "ordinalPosition" : 1
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "filename",
+                    "id" : "filename",
+                    "ordinalPosition" : 2
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "imageRef",
+                    "id" : "imageRef",
+                    "ordinalPosition" : 3
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "caption",
+                    "id" : "caption",
+                    "ordinalPosition" : 4
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "tags",
+                    "id" : "tags",
+                    "ordinalPosition" : 5
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "licenseType",
+                    "id" : "licenseType",
+                    "ordinalPosition" : 6
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "userName",
+                    "id" : "userName",
+                    "ordinalPosition" : 7
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "superTags",
+                    "id" : "superTags",
+                    "ordinalPosition" : 8
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "location",
+                    "id" : "location",
+                    "ordinalPosition" : 9
+                  },
+                  {
+                    "databaseType" : "java.lang.Byte",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "numberOfPeople",
+                    "id" : "numberOfPeople",
+                    "ordinalPosition" : 10
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "modelRelease",
+                    "id" : "modelRelease",
+                    "ordinalPosition" : 11
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "isThereProperty",
+                    "id" : "isThereProperty",
+                    "ordinalPosition" : 12
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "propertyRelease",
+                    "id" : "propertyRelease",
+                    "ordinalPosition" : 13
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "primaryCategory",
+                    "id" : "primaryCategory",
+                    "ordinalPosition" : 14
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "secondaryCategory",
+                    "id" : "secondaryCategory",
+                    "ordinalPosition" : 15
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "imageType",
+                    "id" : "imageType",
+                    "ordinalPosition" : 16
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "exclusiveToAlamy",
+                    "id" : "exclusiveToAlamy",
+                    "ordinalPosition" : 17
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "additionalInfo",
+                    "id" : "additionalInfo",
+                    "ordinalPosition" : 18
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "status",
+                    "id" : "status",
+                    "ordinalPosition" : 19
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "dateTaken",
+                    "id" : "dateTaken",
+                    "ordinalPosition" : 20
+                  }
+                ],
+                "name" : "homePIX_csventry",
+                "id" : "homePIX_csventry"
+              },
+              {
+                "expanded" : true,
+                "isView" : false,
+                "columns" : [
+                  {
+                    "databaseType" : "java.lang.Short",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "id",
+                    "id" : "id",
+                    "ordinalPosition" : 1
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "path",
+                    "id" : "path",
+                    "ordinalPosition" : 2
+                  },
+                  {
+                    "databaseType" : "java.lang.Byte",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "count",
+                    "id" : "count",
+                    "ordinalPosition" : 3
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "remote_key",
+                    "id" : "remote_key",
+                    "ordinalPosition" : 4
+                  },
+                  {
+                    "databaseType" : "java.lang.Integer",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "remote_id",
+                    "id" : "remote_id",
+                    "ordinalPosition" : 5
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "thumbnail_id",
+                    "id" : "thumbnail_id",
+                    "ordinalPosition" : 6
+                  },
+                  {
+                    "databaseType" : "java.lang.Byte",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "hits",
+                    "id" : "hits",
+                    "ordinalPosition" : 7
+                  }
+                ],
+                "name" : "homePIX_directory",
+                "id" : "homePIX_directory"
+              },
+              {
+                "expanded" : true,
+                "isView" : false,
+                "columns" : [
+                  {
+                    "databaseType" : "java.lang.Short",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "id",
+                    "id" : "id",
+                    "ordinalPosition" : 1
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "keywords",
+                    "id" : "keywords",
+                    "ordinalPosition" : 2
+                  },
+                  {
+                    "databaseType" : "java.lang.Byte",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "count",
+                    "id" : "count",
+                    "ordinalPosition" : 3
+                  }
+                ],
+                "name" : "homePIX_keywords",
+                "id" : "homePIX_keywords"
+              },
+              {
+                "expanded" : true,
+                "isView" : false,
+                "columns" : [
+                  {
+                    "databaseType" : "java.lang.Integer",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "id",
+                    "id" : "id",
+                    "ordinalPosition" : 1
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "file",
+                    "id" : "file",
+                    "ordinalPosition" : 2
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "title",
+                    "id" : "title",
+                    "ordinalPosition" : 3
+                  },
+                  {
+                    "databaseType" : "java.lang.Long",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "sortkey",
+                    "id" : "sortkey",
+                    "ordinalPosition" : 4
+                  },
+                  {
+                    "databaseType" : "java.sql.Timestamp",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "added_on",
+                    "id" : "added_on",
+                    "ordinalPosition" : 5
+                  },
+                  {
+                    "databaseType" : "java.sql.Timestamp",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "taken_on",
+                    "id" : "taken_on",
+                    "ordinalPosition" : 6
+                  },
+                  {
+                    "databaseType" : "java.sql.Timestamp",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "last_modified",
+                    "id" : "last_modified",
+                    "ordinalPosition" : 7
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "location",
+                    "id" : "location",
+                    "ordinalPosition" : 8
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "primaryCategory",
+                    "id" : "primaryCategory",
+                    "ordinalPosition" : 9
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "secondaryCategory",
+                    "id" : "secondaryCategory",
+                    "ordinalPosition" : 10
+                  },
+                  {
+                    "databaseType" : "java.lang.Integer",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "keywords_id",
+                    "id" : "keywords_id",
+                    "ordinalPosition" : 11
+                  },
+                  {
+                    "databaseType" : "java.lang.Short",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "path_id",
+                    "id" : "path_id",
+                    "ordinalPosition" : 12
+                  },
+                  {
+                    "databaseType" : "java.lang.Byte",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "hits",
+                    "id" : "hits",
+                    "ordinalPosition" : 13
+                  }
+                ],
+                "name" : "homePIX_picturefile",
+                "id" : "homePIX_picturefile"
+              },
+              {
+                "expanded" : true,
+                "isView" : false,
+                "columns" : [
+                  {
+                    "databaseType" : "java.lang.Integer",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "id",
+                    "id" : "id",
+                    "ordinalPosition" : 1
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "file",
+                    "id" : "file",
+                    "ordinalPosition" : 2
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "title",
+                    "id" : "title",
+                    "ordinalPosition" : 3
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "sortkey",
+                    "id" : "sortkey",
+                    "ordinalPosition" : 4
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "added_on",
+                    "id" : "added_on",
+                    "ordinalPosition" : 5
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "last_modified",
+                    "id" : "last_modified",
+                    "ordinalPosition" : 6
+                  },
+                  {
+                    "databaseType" : "java.lang.Short",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "keywords_id",
+                    "id" : "keywords_id",
+                    "ordinalPosition" : 7
+                  },
+                  {
+                    "databaseType" : "java.lang.Short",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "path_id",
+                    "id" : "path_id",
+                    "ordinalPosition" : 8
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "location",
+                    "id" : "location",
+                    "ordinalPosition" : 9
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "primaryCategory",
+                    "id" : "primaryCategory",
+                    "ordinalPosition" : 10
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "secondaryCategory",
+                    "id" : "secondaryCategory",
+                    "ordinalPosition" : 11
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "taken_on",
+                    "id" : "taken_on",
+                    "ordinalPosition" : 12
+                  },
+                  {
+                    "databaseType" : "java.lang.Integer",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "id:1",
+                    "id" : "id:1",
+                    "ordinalPosition" : 13
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "filename",
+                    "id" : "filename",
+                    "ordinalPosition" : 14
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "imageRef",
+                    "id" : "imageRef",
+                    "ordinalPosition" : 15
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "caption",
+                    "id" : "caption",
+                    "ordinalPosition" : 16
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "tags",
+                    "id" : "tags",
+                    "ordinalPosition" : 17
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "licenseType",
+                    "id" : "licenseType",
+                    "ordinalPosition" : 18
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "userName",
+                    "id" : "userName",
+                    "ordinalPosition" : 19
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "superTags",
+                    "id" : "superTags",
+                    "ordinalPosition" : 20
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "location:1",
+                    "id" : "location:1",
+                    "ordinalPosition" : 21
+                  },
+                  {
+                    "databaseType" : "java.lang.Byte",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "numberOfPeople",
+                    "id" : "numberOfPeople",
+                    "ordinalPosition" : 22
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "modelRelease",
+                    "id" : "modelRelease",
+                    "ordinalPosition" : 23
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "isThereProperty",
+                    "id" : "isThereProperty",
+                    "ordinalPosition" : 24
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "propertyRelease",
+                    "id" : "propertyRelease",
+                    "ordinalPosition" : 25
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "primaryCategory:1",
+                    "id" : "primaryCategory:1",
+                    "ordinalPosition" : 26
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "secondaryCategory:1",
+                    "id" : "secondaryCategory:1",
+                    "ordinalPosition" : 27
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "imageType",
+                    "id" : "imageType",
+                    "ordinalPosition" : 28
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "exclusiveToAlamy",
+                    "id" : "exclusiveToAlamy",
+                    "ordinalPosition" : 29
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "additionalInfo",
+                    "id" : "additionalInfo",
+                    "ordinalPosition" : 30
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "status",
+                    "id" : "status",
+                    "ordinalPosition" : 31
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "dateTaken",
+                    "id" : "dateTaken",
+                    "ordinalPosition" : 32
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "taken",
+                    "id" : "taken",
+                    "ordinalPosition" : 33
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "shot",
+                    "id" : "shot",
+                    "ordinalPosition" : 34
+                  }
+                ],
+                "name" : "imports",
+                "id" : "imports"
+              },
+              {
+                "expanded" : true,
+                "isView" : false,
+                "columns" : [
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "name",
+                    "id" : "name",
+                    "ordinalPosition" : 1
+                  },
+                  {
+                    "databaseType" : "java.lang.Integer",
+                    "expanded" : true,
+                    "nullable" : true,
+                    "name" : "seq",
+                    "id" : "seq",
+                    "ordinalPosition" : 2
+                  }
+                ],
+                "name" : "sqlite_sequence",
+                "id" : "sqlite_sequence"
+              }
+            ],
+            "expanded" : true,
+            "name" : "innodb",
+            "id" : "innodb",
+            "enabled" : true
+          }
+        ],
+        "typeName" : "MariaDB",
+        "ipAddress" : "homepix.cpfuj65ijcvy.us-east-2.rds.amazonaws.com",
+        "name" : "innodb",
+        "id" : "innodb",
+        "enabled" : true,
+        "username" : "admin"
+      }
+    ],
+    "enabled" : true
+  }
+}

@@ -1,0 +1,14 @@
+package com.elliottbignell.homepix.innodb.innodb.auth_permission;
+
+import com.elliottbignell.homepix.innodb.innodb.auth_permission.generated.GeneratedAuthPermissionManager;
+
+/**
+ * The main interface for the manager of every {@link
+ * com.elliottbignell.homepix.innodb.innodb.auth_permission.AuthPermission}
+ * entity.
+ * <p>
+ * This file is safe to edit. It will not be overwritten by the code generator.
+ * 
+ * @author Elliott Bignell
+ */
+public interface AuthPermissionManager extends GeneratedAuthPermissionManager {}

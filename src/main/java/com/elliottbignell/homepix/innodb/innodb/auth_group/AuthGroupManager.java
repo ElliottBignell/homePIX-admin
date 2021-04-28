@@ -1,0 +1,13 @@
+package com.elliottbignell.homepix.innodb.innodb.auth_group;
+
+import com.elliottbignell.homepix.innodb.innodb.auth_group.generated.GeneratedAuthGroupManager;
+
+/**
+ * The main interface for the manager of every {@link
+ * com.elliottbignell.homepix.innodb.innodb.auth_group.AuthGroup} entity.
+ * <p>
+ * This file is safe to edit. It will not be overwritten by the code generator.
+ * 
+ * @author Elliott Bignell
+ */
+public interface AuthGroupManager extends GeneratedAuthGroupManager {}
